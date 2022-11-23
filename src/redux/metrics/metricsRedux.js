@@ -8,7 +8,6 @@ export const getData = createAsyncThunk('metrics/getData', async (_, thunk) => {
     const response = await axios.get(url);
     return response.data;
   } catch (error) {
-    console.log(error.message);
     return thunk.rejectWithValue(error.response.data);
   }
 });
