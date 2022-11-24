@@ -1,58 +1,152 @@
-# Metrics webapp
+<div align="center">
 
-## Description
+  <img src="./public/murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
 
-This React capstone project is about building a mobile web application to check a list of metrics (numeric values) that I worked with using of React and Redux.
+</div>
 
-I selected an API that provides numeric data about a topic that I like and then build the webapp around it. The webapp will have two pages:
-  - one page with a list of items that could be filtered by some parameters; it's a list of metrics that can be filtered by the country. This page will be the homepage.
-  - one page for the item details
+# 📖 [Metric Webapp] <a name="about-project"></a>
+
+**[Metric Webapp]** is my React capstone  which is about building a mobile web application to check a list of metrics (numeric values) from the API that I worked with using of React and Redux.
+
+I selected a Covid19 API that provides numeric data about all countries covid cases and then build the webapp around it. The webapp had two pages:
+  - one page with a list of items that could be filtered by continent. This page is the homepage.
+  - one page for each country's details
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://redux-toolkit.js.org/">Redux toolkit</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- **Render Detail Pages Dynamically**
+- **Fetch All Countries Covid19 Data At Initial Render**
+- **Filtering Through Continents**
 
 
 ## Overview
+
 [App Overview](https://www.loom.com/share/dae73f096f3248ebb5dbf7dcbf585625)
 
-# Getting Started with Create React App
+<!-- LIVE DEMO -->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- ## 🚀 Live Demo <a name="live-demo"></a>
 
-### Directory
+- [Live Demo Link](https://yourdeployedapplicationlink.com) -->
 
-- This directory can be clone using `git clone git@github.com:Fayob/Metrics-webapp.git`
+<!-- GETTING STARTED -->
 
-## Available Scripts
+## 💻 Getting Started <a name="getting-started"></a>
 
-In the project directory, you can run:
+> Describe how a new developer could make use of your project.
 
--  `npm install` to install all dependencies
+To get a local copy up and running, follow these steps.
 
--  `npm start` to spin up the app in your web browser.
+### Prerequisites
 
-## Learn More
+In order to run this project you need to:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  `install node on your desktop`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-## Author
+### Setup
 
-👨 Abimbola Favour Adedeji
+Clone this repository to your desired folder:
 
-GitHub: [@fayob](https://github.com/fayob)
+```sh
+  git clone git@github.com:Fayob/Metrics-webapp.git
+```
 
-Twitter: [@fabimworld2536](https://twitter.com/Fabimworld2536)
+### Install
+
+Install this project dependencies with:
+
+```sh
+  npm install
+```
+
+### Usage
+
+To run the project, execute the following command:
+
+```sh
+  npm start
+```
+
+### Run tests
+
+To run tests, run the following command:
+
+``` 
+  npm run test 
+```
+
+<!-- AUTHORS -->
+
+👤 **Author**
+
+- GitHub: [@fayob](https://github.com/fayob)
+
+- Twitter: [@fabimworld2536](https://twitter.com/Fabimworld2536)
 
 LinkedIn: [@abimbola-ade](https://www.linkedin.com/in/abimbola-ade)
 
+<!-- FUTURE FEATURES -->
 
-## Contributing
+## 🔭 Future Features <a name="future-features"></a>
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](#).
+> Describe 1 - 3 features you will add to the project.
 
-## Show your support
+- [ ] **[new_feature_1]**
+- [ ] **[new_feature_2]**
+- [ ] **[new_feature_3]**
 
-Give a ⭐️ if you like this project!
+<!-- CONTRIBUTING -->
 
-## License
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I give credit to Nelson Sakwa on Behance for the design which I strictly follow for this project.
+
+<!-- FAQ (optional) -->
+
+## ❓ FAQ <a name="faq"></a>
+
+> Add at least 2 questions new developers would ask when they decide to use your project.
+
+- **[Question_1]**
+
+  - [Answer_1]
+
+- **[Question_2]**
+
+  - [Answer_2]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
