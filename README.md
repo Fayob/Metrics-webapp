@@ -29,10 +29,9 @@ I selected a Covid19 API that provides numeric data about all countries covid ca
 
 ### Key Features <a name="key-features"></a>
 
-- **Render Detail Pages Dynamically**
-- **Fetch All Countries Covid19 Data At Initial Render**
-- **Filtering Through Continents**
-
+- **[Render Detail Pages Dynamically]**
+- **[Fetch All Countries Covid19 Data At Initial Render]**
+- **[Filtering Through Continents]**
 
 ## Overview
 
@@ -40,9 +39,9 @@ I selected a Covid19 API that provides numeric data about all countries covid ca
 
 <!-- LIVE DEMO -->
 
-<!-- ## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com) -->
+- [coronavirus metric webappp](https://coronavirus-metrics-webapp.netlify.app/)
 
 <!-- GETTING STARTED -->
 
