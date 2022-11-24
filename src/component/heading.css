@@ -1,0 +1,29 @@
+.heading {
+  max-width: 100%;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+.empty_div {
+  width: 65%;
+  background: url('../assets/Covid19_image.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  margin-right: 1.5rem;
+}
+
+.heading_div {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-transform: capitalize;
+  padding-right: 0.5rem;
+}
