@@ -9,6 +9,9 @@ I selected an API that provides numeric data about a topic that I like and then 
   - one page for the item details
 
 
+## Overview
+[App Overview](https://www.loom.com/share/dae73f096f3248ebb5dbf7dcbf585625)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
