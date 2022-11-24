@@ -1,0 +1,21 @@
+.page_lists {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin:1rem 0.5rem;
+  flex-wrap: wrap;
+}
+
+.page_list {
+  display: inline-block;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.active {
+  background: #f6516c;
+  color: white;
+}
