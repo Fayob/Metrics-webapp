@@ -14,7 +14,7 @@ const DetailsPage = () => {
   const targetCountry = covidDatas && covidDatas.covid19Data.find((data) => data.Country === target);
 
   return (
-    <>
+    <main className="details">
       <Navbar navHeading="Countries Covid19 Details" />
       <Heading name={target} confirmedCases={targetCountry && targetCountry.TotalCases} />
       <DetailComponent
@@ -26,7 +26,7 @@ const DetailsPage = () => {
         ActiveCases={targetCountry && targetCountry.ActiveCases}
         TotalDeaths={targetCountry && targetCountry.TotalDeaths}
       />
-    </>
+    </main>
   );
 };
 
