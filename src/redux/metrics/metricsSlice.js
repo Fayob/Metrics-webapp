@@ -25,10 +25,8 @@ export const covidData = createAsyncThunk('metrics/worldData', async (target, th
 
   try {
     const response = await axios.request(options);
-    console.log(response.data);
     return response.data;
   } catch (error) {
-    console.log(thunk.rejectWithValue(error.message.payload));
     return thunk.rejectWithValue(error.message);
   }
 });
