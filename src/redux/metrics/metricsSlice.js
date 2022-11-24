@@ -36,8 +36,8 @@ export const globalData = createAsyncThunk('metrics/globalData', async (_, thunk
     method: 'GET',
     url: 'https://vaccovid-coronavirus-vaccine-and-treatment-tracker.p.rapidapi.com/api/npm-covid-data/world',
     headers: {
-      'X-RapidAPI-Key': '01efd1547emsh1053313b758aa52p1fdc72jsna43cc5316626',
-      'X-RapidAPI-Host': 'vaccovid-coronavirus-vaccine-and-treatment-tracker.p.rapidapi.com',
+      'X-RapidAPI-Key': process.env.REACT_APP_X_RAPIDAPI_KEY,
+      'X-RapidAPI-Host': process.env.REACT_APP_X_RAPIDAPI_HOST,
     },
   };
 
