@@ -1,14 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
+import { FiArrowRightCircle } from 'react-icons/fi';
 
 const HomeComponent = ({ covidCountry, covidTotalCases }) => (
-  <div className="home_page">
-    <h4>
-      <Link to={`/test/${covidCountry}`}>{covidCountry}</Link>
-    </h4>
-    <p>{ covidTotalCases }</p>
-  </div>
+  <Link to={`/details/${covidCountry}`} className="home_page">
+    <FiArrowRightCircle className="arrow_right" />
+    <div>
+      <h2>{covidCountry}</h2>
+      <p>{ covidTotalCases }</p>
+    </div>
+
+  </Link>
 );
 
 HomeComponent.propTypes = {
