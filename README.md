@@ -99,17 +99,7 @@ To run tests, run the following command:
 
 - Twitter: [@fabimworld2536](https://twitter.com/Fabimworld2536)
 
-LinkedIn: [@abimbola-ade](https://www.linkedin.com/in/abimbola-ade)
-
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- LinkedIn: [@abimbola-ade](https://www.linkedin.com/in/abimbola-ade)
 
 <!-- CONTRIBUTING -->
 
@@ -125,28 +115,8 @@ Feel free to check the [issues page](../../issues/).
 
 I give credit to Nelson Sakwa on Behance for the design which I strictly follow for this project.
 
-<!-- FAQ (optional) -->
-
-## ❓ FAQ <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
