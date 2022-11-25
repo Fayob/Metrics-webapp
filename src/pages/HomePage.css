@@ -41,6 +41,12 @@
   margin: 1rem auto;
 }
 
+.country_data {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
 @media (min-width: 768px) {
   .home_page_list {
     grid-template-columns: repeat(3, 1fr);

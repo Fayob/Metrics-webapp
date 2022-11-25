@@ -6,11 +6,10 @@ import { FiArrowRightCircle } from 'react-icons/fi';
 const HomeComponent = ({ covidCountry, covidTotalCases }) => (
   <Link to={`/details/${covidCountry}`} className="home_page">
     <FiArrowRightCircle className="arrow_right" />
-    <div>
+    <div className="country_data">
       <h2>{covidCountry}</h2>
       <p>{ covidTotalCases }</p>
     </div>
-
   </Link>
 );
 
