@@ -162,12 +162,9 @@ Object {
              Australian and Oceanian 
           </option>
         </select>
-        <div
-          class="home_page_list"
-        />
-        <ul
-          class="page_lists"
-        />
+        <h2>
+          Loading...
+        </h2>
       </main>
     </div>
   </body>,
@@ -329,12 +326,9 @@ Object {
            Australian and Oceanian 
         </option>
       </select>
-      <div
-        class="home_page_list"
-      />
-      <ul
-        class="page_lists"
-      />
+      <h2>
+        Loading...
+      </h2>
     </main>
   </div>,
   "debug": [Function],
