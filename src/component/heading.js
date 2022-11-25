@@ -5,14 +5,10 @@ import './heading.css';
 
 const Heading = ({ name, confirmedCases }) => (
   <div className="heading">
-    <div className="empty_div" />
-    <div className="heading_div">
-      <h2 className="heading_name">{name && name}</h2>
-      <p>
-        {confirmedCases && confirmedCases}
-      </p>
-    </div>
-
+    <h2 className="heading_name">{`${name && name} : `}</h2>
+    <p>
+      {confirmedCases && confirmedCases}
+    </p>
   </div>
 );
 
