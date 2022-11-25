@@ -36,9 +36,10 @@
 }
 
 .select {
+  display: block;
   width: 50%;
   padding: 0.7rem;
-  margin: 1rem auto;
+  margin: 1rem auto 2rem;
 }
 
 .country_data {
