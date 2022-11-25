@@ -1,0 +1,11 @@
+.details {
+  margin-top: 4rem;
+}
+
+.detail_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f6516c;
+}
