@@ -13,6 +13,11 @@
   margin-bottom: 1rem;
 }
 
+.arrow_back:hover {
+  background: #f6516c;
+  color: white;
+}
+
 .mic_setting {
   display: flex;
   justify-content: space-between;
