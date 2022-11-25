@@ -7,10 +7,10 @@
 
 # 📖 [Metric Webapp] <a name="about-project"></a>
 
-**[Metric Webapp]** is my React capstone  which is about building a mobile web application to check a list of metrics (numeric values) from the API that I worked with using of React and Redux.
+**[Metric Webapp]** is  a project which is about building a mobile web application to check a list of metrics data (numeric values) from an API chosen using React and Redux.
 
 I selected a Covid19 API that provides numeric data about all countries covid cases and then build the webapp around it. The webapp had two pages:
-  - one page with a list of items that could be filtered by continent. This page is the homepage.
+  - one page with a list of countries with their respective covid cases that could be filtered by continent. This page is the homepage.
   - one page for each country's details
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -35,7 +35,7 @@ I selected a Covid19 API that provides numeric data about all countries covid ca
 
 ## Overview
 
-[App Overview](https://www.loom.com/share/dae73f096f3248ebb5dbf7dcbf585625)
+[App Overview](https://www.loom.com/share/bd54adcd0afa43ba80dbe4f42ea356f2)
 
 <!-- LIVE DEMO -->
 
@@ -56,6 +56,7 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need to:
 
   `install node on your desktop`
+  `install npm on your desktop`
 
 
 ### Setup
