@@ -33,10 +33,6 @@ I selected a Covid19 API that provides numeric data about all countries covid ca
 - **[Fetch All Countries Covid19 Data At Initial Render]**
 - **[Filtering Through Continents]**
 
-## Overview
-
-[App Overview](https://www.loom.com/share/bd54adcd0afa43ba80dbe4f42ea356f2)
-
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
